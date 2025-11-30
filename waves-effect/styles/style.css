@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    background-color: #212020;
+    margin-top: 4rem;
+    gap: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    text-shadow: 1px 1px 6px #000;
+    border-radius: 4px;
+    padding: .35rem 1.5rem;
+    width: 2.5rem;
+    text-align: center;
+}
+
+.buy {
+    background-color: #1cf689;
+}
+
+.sell {
+    background-color: #d2292b;
+}
